@@ -1,0 +1,7 @@
+text=raw_input("Enter a String: ")
+i = len(text)
+rev = ""
+while i != 0:
+ rev = rev + text[i-1]
+ i = i - 1
+print rev
