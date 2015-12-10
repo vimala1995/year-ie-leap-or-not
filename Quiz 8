@@ -1,0 +1,7 @@
+from datetime import date
+import datetime
+a = int(input("Enter Ur Date of Year: "))
+b=a-date.today().year
+now = datetime.datetime.now()
+if b<21:
+    print now.day,-now.month,-now.year
