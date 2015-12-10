@@ -1,0 +1,5 @@
+a = [16, 6, 30,61,6,12,14]
+m=6
+for i in range(len(a)):
+ if m==a[i]:
+   print 'true'
